@@ -1,4 +1,4 @@
-package br.com.solutis.ExercicioCincoOnze.model;
+package br.com.solutis.ExercicioOitoOnze.model;
 
 public class FuncionarioMedio extends Funcionario {
 
@@ -10,8 +10,8 @@ public class FuncionarioMedio extends Funcionario {
         this.tipoEscolaridade = TipoEscolaridade.ENSINO_MEDIO;
     }
 
-    public FuncionarioMedio(String nome, int codigoFuncional, String nomeEscola) {
-        super(nome, codigoFuncional);
+    public FuncionarioMedio(String nome, int codigoFuncional, String nomeEscola, Cargo cargo) {
+        super(nome, codigoFuncional, cargo);
         this.nomeEscola = nomeEscola;
         this.tipoEscolaridade = TipoEscolaridade.ENSINO_MEDIO;
     }
@@ -27,7 +27,7 @@ public class FuncionarioMedio extends Funcionario {
 
     @Override
     public double calcularRendaTotal(){
-        return super.calcularRendaTotal() * 1.5;
+        return super.calcularRendaTotal() * 1.6;
     }
 
 }

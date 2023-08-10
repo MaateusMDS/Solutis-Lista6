@@ -1,4 +1,4 @@
-package br.com.solutis.ExercicioCincoOnze.model;
+package br.com.solutis.ExercicioCincoSete.model;
 
 public class Funcionario {
     private String nome;

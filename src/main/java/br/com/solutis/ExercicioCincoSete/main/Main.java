@@ -1,9 +1,9 @@
-package br.com.solutis.ExercicioCincoOnze.main;
+package br.com.solutis.ExercicioCincoSete.main;
 
-import br.com.solutis.ExercicioCincoOnze.model.Funcionario;
-import br.com.solutis.ExercicioCincoOnze.model.FuncionarioBasico;
-import br.com.solutis.ExercicioCincoOnze.model.FuncionarioGraduado;
-import br.com.solutis.ExercicioCincoOnze.model.FuncionarioMedio;
+import br.com.solutis.ExercicioCincoSete.model.Funcionario;
+import br.com.solutis.ExercicioCincoSete.model.FuncionarioBasico;
+import br.com.solutis.ExercicioCincoSete.model.FuncionarioGraduado;
+import br.com.solutis.ExercicioCincoSete.model.FuncionarioMedio;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package br.com.solutis.ExercicioCincoOnze.model;
+package br.com.solutis.ExercicioCincoSete.model;
 
 public class FuncionarioGraduado extends Funcionario {
 
@@ -27,6 +27,6 @@ public class FuncionarioGraduado extends Funcionario {
 
     @Override
     public double calcularRendaTotal(){
-        return super.calcularRendaTotal() * 2.0;
+        return super.calcularRendaTotal() * 2.6;
     }
 }

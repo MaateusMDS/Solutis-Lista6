@@ -1,4 +1,4 @@
-package br.com.solutis.ExercicioCincoOnze.model;
+package br.com.solutis.ExercicioOitoOnze.model;
 
 public class FuncionarioBasico extends Funcionario {
 
@@ -9,8 +9,8 @@ public class FuncionarioBasico extends Funcionario {
         this.nomeEscola = nomeEscola;
         this.tipoEscolaridade = TipoEscolaridade.ENSINO_BASICO;
     }
-    public FuncionarioBasico(String nome, int codigoFuncional, String nomeEscola) {
-        super(nome, codigoFuncional);
+    public FuncionarioBasico(String nome, int codigoFuncional, String nomeEscola, Cargo cargo) {
+        super(nome, codigoFuncional, cargo);
         this.nomeEscola = nomeEscola;
         this.tipoEscolaridade = TipoEscolaridade.ENSINO_BASICO;
     }
