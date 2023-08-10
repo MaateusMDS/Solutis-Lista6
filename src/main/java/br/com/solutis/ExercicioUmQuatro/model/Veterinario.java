@@ -2,7 +2,7 @@ package br.com.solutis.ExercicioUmQuatro.model;
 
 public class Veterinario {
 
-    public String exanimar(Animal animal){
+    public String examinar(Animal animal){
         return animal.emitirSom();
     }
 

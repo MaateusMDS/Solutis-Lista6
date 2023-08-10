@@ -14,8 +14,8 @@ public class ExercicioTres {
         var cavalo = new Cavalo("Pé de Pano", 5);
         var preguica = new Preguica("Marry", 3);
 
-        System.out.println(veterinario.exanimar(cachorro));
-        System.out.println(veterinario.exanimar(cavalo));
-        System.out.println(veterinario.exanimar(preguica));
+        System.out.println(veterinario.examinar(cachorro));
+        System.out.println(veterinario.examinar(cavalo));
+        System.out.println(veterinario.examinar(preguica));
     }
 }
